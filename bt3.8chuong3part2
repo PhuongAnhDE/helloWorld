@@ -1,0 +1,8 @@
+kt = input("")
+n = int(input(""))
+if n < 1 or n > 20:
+    print("Vui long nhap lai:")
+dong=1
+for i in range(1, n + 1):
+     d=(kt+ " ")*i
+     print(d)  
